@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Hitung Gaji Karyawan</title>
+    <link rel="stylesheet" href="gaji.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- INPUTAN -->
+    <div class="input">
+        <h3 class="judul">INPUTAN</h3>
+        <h2>Hitung Gaji Karyawan</h2>
+
+        <label>Gaji Pokok (Rp):</label>
+        <input type="number" id="gajiPokok" value="5000000">
+
+        <label>Jumlah Jam Lembur:</label>
+        <input type="number" id="jamLembur" value="20">
+
+        <button onclick="hitungGaji()">Hitung Gaji</button>
+    </div>
+
+    <!-- OUTPUT -->
+    <div class="output">
+        <h3 class="judul">OUTPUT</h3>
+
+        <p>Gaji Pokok: <span id="outPokok">Rp 0</span></p>
+        <p>Total Gaji Lembur: <span id="outLembur">Rp 0</span></p>
+        <p>Gaji Kotor: <span id="outKotor">Rp 0</span></p>
+        <p>Pajak: <span id="outPajak">Rp 0</span></p>
+        <p class="tebal">Gaji Bersih: <span id="outBersih">Rp 0</span></p>
+    </div>
+
+</div>
+
+<script src="gaji.js"></script>
+</body>
+</html>

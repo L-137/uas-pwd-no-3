@@ -1,0 +1,50 @@
+body {
+    font-family: "Times New Roman", serif;
+    background-color: white;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    border: 1px solid black;
+}
+
+.input, .output {
+    width: 50%;
+    padding: 20px;
+}
+
+.input {
+    border-right: 1px solid black;
+}
+
+.judul {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input {
+    width: 95%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 5px 15px;
+}
+
+.output p {
+    margin: 12px 0;
+}
+
+.tebal {
+    font-weight: bold;
+}
